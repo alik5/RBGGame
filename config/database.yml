@@ -80,7 +80,6 @@ test:
 #
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+  <<: *default
+  database: notoriousRBG_production
 
