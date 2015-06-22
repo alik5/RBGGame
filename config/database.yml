@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: notoriousRBG_production
-  username: notoriousRBG
-  password: password
+
