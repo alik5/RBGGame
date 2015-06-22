@@ -78,7 +78,9 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
 production:
-  <<: *default
-  database: notoriousRBG_production
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
 
